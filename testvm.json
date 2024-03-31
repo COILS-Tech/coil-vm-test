@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "vmName": {
-            "defaultValue": "simpleLinuxVM",
+            "defaultValue": "Chokobox-vm",
             "type": "String",
             "metadata": {
                 "description": "The name of your Virtual Machine."
@@ -40,9 +40,9 @@
             }
         },
         "ubuntuOSVersion": {
-            "defaultValue": "Ubuntu-2004",
+            "defaultValue": "Ubuntu-2204",
             "allowedValues": [
-                "Ubuntu-2004",
+                "Ubuntu-2204",
                 "Ubuntu-2204"
             ],
             "type": "String",
