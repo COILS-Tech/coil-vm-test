@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vmName": {
+            "value": "Chokobox-vm"
+        },
+        "adminUsername": {
+            "value": "Obareze"
+        },
+        "authenticationType": {
+            "value": "password"
+        },
+        "adminPasswordOrKey": {
+            "value": null
+        },
+        "dnsLabelPrefix": {
+            "value": "chokobox-vm-s5uvhwc2tj7g4"
+        },
+        "ubuntuOSVersion": {
+            "value": "Ubuntu-2204"
+        },
+        "location": {
+            "value": "eastus"
+        },
+        "vmSize": {
+            "value": "Standard_D2s_v3"
+        },
+        "virtualNetworkName": {
+            "value": "vNet"
+        },
+        "subnetName": {
+            "value": "Subnet"
+        },
+        "networkSecurityGroupName": {
+            "value": "SecGroupNet"
+        },
+        "securityType": {
+            "value": "TrustedLaunch"
+        }
+    }
+}
